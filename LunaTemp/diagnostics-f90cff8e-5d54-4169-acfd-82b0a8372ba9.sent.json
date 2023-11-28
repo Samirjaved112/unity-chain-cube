@@ -1,0 +1,198 @@
+{
+  "BuildID": "f90cff8e-5d54-4169-acfd-82b0a8372ba9",
+  "Command": "project:deploy",
+  "ProjectID": "581a344f559124c438e561a5ff29af32",
+  "ProjectStateHash": "579e807dafb42cdefabb8d0559c81ad5f2a53b33ae4666f5f9d0003ea78f6416",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1701145802357,
+  "EndTime": 1701145829588,
+  "PlaygroundUserID": 12741,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2021.3.15f1",
+  "LunaVersion": "5.4.0",
+  "LogCount": 7,
+  "Logs": [
+    {
+      "LogID": "4ae2e033-9eb6-48fb-b0ef-4ff3ca5e1f8a",
+      "Order": 6,
+      "Timestamp": 1701145829747,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "LP3014",
+      "Description": "You are using the wrong API: Application.OpenURL.",
+      "Details": [
+        "You are using the wrong API: Application.OpenURL. which can lead to ad networks rejecting the playable. Please use Luna.Unity.Playable.InstallFullGame() instead. "
+      ],
+      "DescriptionValues": [
+        "Application.OpenURL"
+      ],
+      "DetailsValues": [
+        "Application.OpenURL"
+      ],
+      "LogCount": 1,
+      "LinePosition": 99,
+      "FilePath": "D:\\Backups\\unity-chain-cube\\Assets\\_Code\\Manager\\playableScript\\PlayableManager.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "a597c218-df58-438f-b221-c2eb08f5179d",
+      "Order": 6,
+      "Timestamp": 1701145829752,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "20ba5a1e-adbf-4f20-a92a-a4710c8502b7",
+      "Order": 0,
+      "Timestamp": 1701145806851,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1030",
+      "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+      "Details": [
+        "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF - Fallback",
+        "Dynamic"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "3a27d5f6-48f3-4950-b335-5704b6f24a41",
+      "Order": 1,
+      "Timestamp": 1701145806964,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1012",
+      "Description": "Export Error: An item with the same key has already been added. Key: TextMeshPro/Mobile/Distance Field (UnityEngine.Shader)",
+      "Details": [
+        "TextMeshPro/Distance Field",
+        ""
+      ],
+      "DescriptionValues": [
+        "An item with the same key has already been added. Key: TextMeshPro/Mobile/Distance Field (UnityEngine.Shader)"
+      ],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "2e2901e0-5dac-40b6-8fc8-299e367fe948",
+      "Order": 2,
+      "Timestamp": 1701145809179,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [
+        "com.unity.timeline (1.6.4)"
+      ],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "D:/Backups/unity-chain-cube/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "c75342a8-aa38-4493-85ac-2e05c0dfda7f",
+      "Order": 3,
+      "Timestamp": 1701145809180,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "DottedLine",
+        "cubechain"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 2,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "9a6e68f8-3f5b-46c8-b225-2bdd3d5e300e",
+      "Order": 4,
+      "Timestamp": 1701145809180,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1010",
+      "Description": "Looks like a collider was scaled, this might affect performance.",
+      "Details": [
+        "border",
+        "border (1)",
+        "border (1)",
+        "border (2)",
+        "Base",
+        "endline",
+        "CubeP",
+        "border",
+        "border (1)",
+        "border (1)",
+        "border (2)",
+        "Base",
+        "endline",
+        "CubeP",
+        "CubeP (1)",
+        "CubeP (2)",
+        "CubeP (3)",
+        "CubeP (4)",
+        "CubeP (5)",
+        "CubeP (6)",
+        "CubeP (7)"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 21,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

@@ -26,6 +26,7 @@ public class CubeHandler : MonoBehaviour
     }
     public void SpawnCube()
     {
+        PlayableManager.instance.cubeCount++;
         currentCube = Instantiate(cube, spawnPosition.position, Quaternion.identity);
         rb = currentCube.GetComponent<Rigidbody>();
     }
